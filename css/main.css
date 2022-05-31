@@ -1,0 +1,127 @@
+.main-container {
+  width: 100%;
+  height: 100%;
+}
+
+.content-container {
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+
+  background-color: #000;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cc{
+  width: 50rem;
+  height: 50rem;
+
+  position: relative;
+}
+
+.rect {
+  width: 1.5rem;
+  height: 4rem;
+
+  position: absolute;
+  transform-origin: bottom;
+}
+
+.rect--1 {
+  background-color: red;
+
+  top: 20%;
+  left: 50%;
+}
+
+.rect--2 {
+  background-color: rgb(255, 23, 23);
+  transform: rotate(30deg);
+  
+
+  top: 21%;
+  left: 54%;
+}
+
+.rect--3 {
+  background-color: rgb(255, 42, 42);
+  transform: rotate(60deg);
+
+  top: 24%;
+  left: 57%;
+}
+
+.rect--4 {
+  background-color: rgb(255, 65, 65);
+  transform: rotate(90deg);
+
+  top: 28%;
+  left: 58%;
+}
+
+.rect--5 {
+  background-color: rgb(255, 98, 98);
+  transform: rotate(120deg);
+
+  top: 32%;
+  left: 57%;
+}
+
+.rect--6 {
+  background-color: rgb(255, 116, 116);
+  transform: rotate(150deg);
+
+  top: 35%;
+  left: 54%;
+}
+
+.rect--7 {
+  background-color: rgb(255, 119, 119);
+  transform: rotate(180deg);
+
+  top: 36%;
+  left: 50%;
+}
+
+.rect--8 {
+  background-color: rgb(255, 154, 154);
+  transform: rotate(210deg);
+
+  top: 35%;
+  left: 46%;
+}
+
+.rect--9 {
+  background-color: rgb(255, 163, 163);
+  transform: rotate(240deg);
+
+  top: 32%;
+  left: 43%;
+}
+
+.rect--10 {
+  background-color: rgb(255, 170, 170);
+  transform: rotate(270deg);
+
+  top: 28%;
+  left: 42%;
+}
+
+.rect--11 {
+  background-color: rgb(255, 189, 189);
+  transform: rotate(300deg);
+
+  top: 24%;
+  left: 43%;
+}
+
+.rect--12 {
+  background-color: rgb(255, 187, 187);
+  transform: rotate(330deg);
+
+  top: 21%;
+  left: 46%;
+}
